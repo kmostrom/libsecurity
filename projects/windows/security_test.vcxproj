@@ -42,7 +42,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>../../../thirdparty/gtest-1.7.0/source2/include;../../../thirdparty/gtest-1.7.0/source;../../src/include;$(IncludePath)</IncludePath>
+    <IncludePath>../../../thirdparty/gtest/1.7.0/source2/include;../../../thirdparty/gtest/1.7.0/source;../../src/include;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)$(Configuration)\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
